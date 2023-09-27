@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    font-family: serif; 
+    font-family:  'Kumbh Sans', sans-serif; 
 }
 
 html{
@@ -9,7 +9,7 @@ html{
 }
 
 header{
-    background-color: #E4BB97;
+    background-color: #815355;
     height: 6rem;
     display: flex;
     justify-content: center;
@@ -39,6 +39,11 @@ header a:hover {
 }
 
 section {
+    border: 1px solid rgb(255, 255, 255);
+    height: calc(100vh - 6rem);
+
+}
+
     border: 1px solid rgb(255, 255, 255);
     height: calc(100vh - 6rem);
 
