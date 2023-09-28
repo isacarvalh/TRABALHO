@@ -10,7 +10,7 @@
 html{
     scroll-behavior: smooth;
     scroll-padding-top: 5rem;
-    background-color: #837a7a;
+    background-color: #FFFFFF;
 }
 
 header{
@@ -84,9 +84,11 @@ legend{
 form{
     width: 100%;
     position: fixed;
-    margin-top: 120px;
+    margin-top: 100px;
     float: left;
     padding: 10px;
+
+    margin-bottom: 100px;
 }
 button {
     width: 100%;
