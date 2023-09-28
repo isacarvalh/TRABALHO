@@ -16,49 +16,43 @@
             <a href="../deuses/tabela.html">Deuses e Deusas</a>
             <a href="../mitos/lista.html">Mitos e Lendas</a>
             <a href="../herois/lista2.html">Heróis e Heroínas</a>
+           <a href="../form/index.html">Se Cadastre!</a>
         </nav>
   </header>
   <main>
-    <div class="box-formulario">        
-        
-        <div class="formulario">
-            
-            <div class="thirteen">
-              <h1>Fale conosco</h1>
-            </div>
-            <form action="#" method="post">
-                     
-                <span>
-                    <input type="text" class="input-swing-down" id="nome" name="nome" placeholder="Nome" autocomplete="off" required=""/>
-                    <label for="nome"> <i class="icon icon-user-outline"></i> </label>
-                </span>
-                <span>
-                    <input type="text" class="input-swing-down" id="email" name="email" placeholder="E-mail" autocomplete="off" required=""/>
-                    <label for="email"> <i class="icon icon-mail-3"></i> </label>
-                </span>
-                <span>
-                    <input type="password" class="input-swing-down" id="senha" name="senha" placeholder="Senha" autocomplete="off" required=""/>
-                    <label for="senha"> <i class="icon icon-info"></i> </label>
-                </span>
-                <span>
-                    <input type="password" class="textarea-swing-down" id="confsenha" name="confsenha" rows="3" placeholder="Confirme sua Senha" autocomplete="off" required=""></input>
-                    <label for="confsenha"> <i class="icon icon-bubble-4"></i> </label>
-                </span>
-                <span>
-                    <input type="checkbox" id="termos">
-                    <label for="termos">Eu concordo com os Termos.</label>
-                </span>
-                
-                <div class="box-btn">
-                     
-                    <button type="submit" class="btn-3d">
-                        <i class="icon icon-forward-1"> Enviar</i>
-                    </button>
-                </div>
-            </form>
+    <form action="">
+      <fieldset>
+        <legend>Cadastre-se em nosso Site!</legend>
+        <div>
+          <input placeholder="Nome" id="nome" type="text">
+          <label for="nome">Seu nome...</label>
         </div>
-    </div>
+        <div>
+          <input placeholder="Email" id="email" type="email">
+          <label for="email">email@gmail.com</label>
+        </div>
+        <div>
+          <input placeholder="Senha" id="senha" type="password">
+          <label for="senha">Sua senha...</label>
+        </div>
+        <div>
+          <input type="password" id="confirmacao-senha" placeholder="Confirmação de Senha">
+          <label for="confirmar">Confirmar senha</label>
+        </div>
+        <div>
+          <input type="checkbox" id="termos">
+          <label for="termos">Eu concordo com os Termos.</label>
+        </div>
+
+        <button>Registrar</button>
+
+      </fieldset>
+    </form>
   </main>
+</body>
+
+</html>
+
 </body>
 
 </html>
